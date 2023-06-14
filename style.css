@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+:root {
+  --primeiraCor: lightcoral;
+  --segundaCor: DimGrey;
+  --terceiraCor: Gainsboro;
+  --fontePadrao: "Lato", sans-serif;
+}
+
+* {
+  font-size: 62.5%;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primeiraCor);
+
+  font-family: var(--fontePadrao);
+  font-size: 6rem;
+}
+
+#conteiner {
+  height: 40rem;
+  width: 25rem;
+  margin: 5rem auto;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f7f7f7;
+
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.51);
+  border-radius: 1.5rem;
+}
+
+.title {
+  width: 100%;
+  background-color: var(--terceiraCor);
+  color: var(--segundaCor);
+
+  padding: 1.5rem;
+
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.formConta {
+  font-size: 2rem;
+
+  padding: 0 3rem;
+}
+
+.inputDoForm {
+  background-color: white;
+
+  width: 5.2rem;
+  padding: 0.6rem 0.5rem;
+  border: 0.1rem solid black;
+}
+
+.inputDoForm:focus {
+  border: 0.2rem solid var(--primeiraCor);
+  outline: none;
+}
+
+.inputDoSelect {
+  width: 17rem;
+  padding: 0.5rem;
+  border: 0.1rem solid black;
+
+  cursor: grab;
+}
+option {
+  font-size: 0.9rem;
+}
+
+.inputDoSelect:focus {
+  border: 0.2rem solid var(--primeiraCor);
+  outline: none;
+}
+
+#buttonSB {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  background-color: var(--primeiraCor);
+  color: white;
+  box-shadow: 0.2rem 0.2rem rgb(223, 222, 222);
+
+  cursor: grab;
+
+  margin: 3rem auto;
+  width: 15rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+
+/* parte do scrip q aparece no final */
+
+
+#totalGorjeta {
+  position: relative;
+  top: -3rem;
+
+  text-align: center;
+}
+#totalGeralConta {
+  font-size: 1.3rem;
+}
+
+/* valor dos dois */.valorFontSize {
+  font-size: 1.2rem;
+}
+
+#totalComGorjeta {
+  font-size: 1.2rem;
+}

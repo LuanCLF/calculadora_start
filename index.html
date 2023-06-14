@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora Start</title>
+  </head>
+  <body>
+    <div id="conteiner">
+      <div class="title">
+        <h1>Calculadora de Gorjetas!!</h1>
+      </div>
+      <!--  -->
+      <div>
+        <form id="formGeral" class="formConta">
+          <label for="bill">
+            <p>Quanto ficou a conta?</p>
+          </label>
+          <p>
+            R$<input
+              type="number"
+              class="inputDoForm"
+              id="bill"
+              placeholder="100"
+              name="bill"
+            />
+          </p>
+          <label for="service">
+            <p>O que pensa sobre o atendimento?</p>
+          </label>
+          <p>
+            <select class="inputDoSelect" name="service" id="service">
+              <option value="N" disabled selected>
+                -- Escolhe ai uma opção meu nobre --
+              </option>
+              <option value="0.3">30% - Incrível</option>
+              <option value="0.25">25% - Ótimo</option>
+              <option value="0.2">20% - Bom</option>
+              <option value="0.15">15% - Ruim</option>
+              <option value="0.1">10%- Bem ruim</option>
+              <option value="0.0">Não gostei do atendimento</option>
+            </select>
+          </p>
+          <label for="numeroP"
+            ><p>Quantas pessoas vão dividir a conta?</p></label
+          >
+          <p>
+            <input
+              class="inputDoForm"
+              type="number"
+              id="numeroP"
+              name="numeroP"
+              placeholder="1"
+            />
+            pessoa(s)
+          </p>
+          <button id="buttonSB" type="button">Calcular!!</button>
+        </form>
+      </div>
+      <!-- parte final onde some com script -->
+
+      <div id="totalGorjeta">
+        <p id="totalGeralConta">Total a pagar: R$ <span class="valorFontSize" id="TGCValor">0.00</span> </p>
+        <div>
+          <p id="totalComGorjeta">Valor a pagar por pessoa: R$ <span class="valorFontSize" id="gorje">0.00</span></p>
+   
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
