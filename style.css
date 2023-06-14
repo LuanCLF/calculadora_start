@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 :root {
   --primeiraCor: lightcoral;
@@ -102,7 +102,7 @@ option {
 }
 
 
-/* parte do scrip q aparece no final */
+parte do scrip q aparece no final 
 
 
 #totalGorjeta {
@@ -115,13 +115,14 @@ option {
   font-size: 2rem;
 }
 
-/* valor dos dois */.valorFontSize {
+ valor dos dois .valorFontSize {
   font-size: 1.9rem;
 }
 
 #totalComGorjeta {
   font-size: 2rem;
 }
+ */
 
 
 
@@ -154,8 +155,7 @@ option {
 
 
 
-
-/* @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 
 :root {
   --primeiraCor: lightcoral;
@@ -261,7 +261,7 @@ option {
 
 /* parte do scrip q aparece no final */
 
-/*
+
 #totalGorjeta {
   position: relative;
   top: -3rem;
@@ -272,10 +272,10 @@ option {
   font-size: 1.3rem;
 }
 
-/* valor dos dois *//*.valorFontSize {
+/* valor dos dois */.valorFontSize {
   font-size: 1.2rem;
 }
 
 #totalComGorjeta {
   font-size: 1.2rem;
-} */
+} 
