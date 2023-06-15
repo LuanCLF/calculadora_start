@@ -8,7 +8,7 @@
 }
 
 * {
-  font-size: 70%;
+  font-size: 62%;
 
   box-sizing: border-box;
 }
@@ -21,15 +21,16 @@ body {
 }
 
 #conteiner {
-  width: 25rem;
-  margin: 5rem auto;
+  
+  width: 30rem;
+  margin: 7rem auto;
 
   display: flex;
   flex-direction: column;
 
   background-color: #f7f7f7;
 
-  box-shadow: 3px 3px 3px gray;
+  box-shadow: 0.3rem 0.3rem 0.3rem gray;
   border-radius: 1.5rem;
 }
 
@@ -43,14 +44,23 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-weight: normal;
+  font-size: 3.3rem;
 
   border-radius: 1.5rem 1.5rem 0 0;
 }
 
 .formConta {
-  font-size: 2rem;
+  font-size: 3.5rem;
 
-  padding: 0 3rem;
+  padding: 0 4rem;
+}
+
+.spESP {
+  font-size: 1.6rem;
+}
+
+#bill {
+  width: 6.5rem;
 }
 
 .inputDoForm {
@@ -62,29 +72,30 @@ body {
 }
 
 .inputDoForm:focus {
-  border: 0.2rem solid var(--primeiraCor);
+  border: 0.3rem solid var(--primeiraCor);
   outline: none;
 }
 
 .inputDoSelect {
-  width: 17rem;
-  padding: 0.5rem;
+  width: 21rem;
+  font-size: 1.1rem;
+  padding: 0.7rem 0.5rem;
   border: 0.1rem solid black;
 
   cursor: grab;
 }
 option {
-  font-size: 0.9rem;
+  font-size: 1.4rem;
 }
 
 .inputDoSelect:focus {
-  border: 0.2rem solid var(--primeiraCor);
+  border: 0.3rem solid var(--primeiraCor);
   outline: none;
 }
 
 #buttonSB {
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 
   background-color: var(--primeiraCor);
@@ -94,8 +105,8 @@ option {
   cursor: grab;
 
   margin: 3rem auto;
-  width: 15rem;
-  height: 3.5rem;
+  width: 18rem;
+  height: 4rem;
   border-radius: 0.5rem;
   display: block;
 }
@@ -111,13 +122,13 @@ option {
   text-align: center;
 }
 #totalGeralConta {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
 }
 
 /* valor dos dois */.valorFontSize {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 }
 
 #totalComGorjeta {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
 } 
