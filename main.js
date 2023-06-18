@@ -1,10 +1,10 @@
-document.getElementById("totalGorjeta").style.display = "none"; 
+document.querySelector("#totalGorjeta").style.display = "none"; 
 
 
 function calcGorjeta() {
-  let totalConta = document.getElementById("bill").value; //input do valor da conta
-  let taxDeSer = document.getElementById("service").value; //select da taxa de serviço
-  let numPe = document.getElementById("numeroP").value; // número de pessoas
+  let totalConta = document.querySelector("#bill").value; //input do valor da conta
+  let taxDeSer = document.querySelector("#service").value; //select da taxa de serviço
+  let numPe = document.querySelector("#numeroP").value; // número de pessoas
 
   let totalContaC = parseFloat(totalConta); 
   let totalContaN = Math.abs(totalContaC);
@@ -25,10 +25,10 @@ function calcGorjeta() {
   total = Math.round(total * 100) / 100;
   total = total.toFixed(2);
 
-  document.getElementById("totalGorjeta").style.display = "block"; //div de todo o resultado
-  document.getElementById("totalGeralConta").style.display = "block"; //valor do geral
-  document.getElementById("TGCValor").innerHTML = total; //valor do geral
-  document.getElementById("totalComGorjeta").style.display = "none";
+  document.querySelector("#totalGorjeta").style.display = "block"; //div de todo o resultado
+  document.querySelector("#totalGeralConta").style.display = "block"; //valor do geral
+  document.querySelector("#TGCValor").innerHTML = total; //valor do geral
+  document.querySelector("#totalComGorjeta").style.display = "none";
 
   if (numP >= 2) {
     // esse if mostra o valor para cada pessoa
@@ -37,11 +37,11 @@ function calcGorjeta() {
     totalPS = Math.round(totalPS * 100) / 100;
     totalPS = totalPS.toFixed(2);
 
-    document.getElementById("totalComGorjeta").style.display = "block";
-    document.getElementById("gorje").innerHTML = totalPS;
+    document.querySelector("#totalComGorjeta").style.display = "block";
+    document.querySelector("#gorje").innerHTML = totalPS;
   }
 }
 
-document.getElementById("buttonSB").onclick = function () {
+document.querySelector("#buttonSB").onclick = function () {
   calcGorjeta();
 };
